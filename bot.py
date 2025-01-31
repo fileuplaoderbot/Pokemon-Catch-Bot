@@ -25,9 +25,9 @@ message_count = 0
 announced_pokemon = None
 
 # Create a Pyrogram client
-api_id = 16743442
-api_hash = '12bbd720f4097ba7713c5e40a11dfd2a'
-bot_token = '6100943782:AAHnphnHm-incoA3OUhqDRpbXLVktaUYV3o'
+api_id = '26683574'
+api_hash = '69ba051f43cff367bf569bd54eb277a7'
+bot_token = ''
 app = Client("pokemon_bot", api_id, api_hash, bot_token=bot_token)
 
 @app.on_message(filters.command("start"))
@@ -47,8 +47,8 @@ def start(_, message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Join Channel", url="https://t.me/BotGeniusHub"),
-                InlineKeyboardButton("Add me to a Group", url="https://t.me/PokemonCatcherXBot?startgroup=new")
+                InlineKeyboardButton("Join Channel", url="https://t.me/ShinchanDubber"),
+                InlineKeyboardButton("Add me to a Group", url="https://t.me/AniReal_Pokemon_Bot?startgroup=true")
             ]
         ]
     )
