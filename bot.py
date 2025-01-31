@@ -14,8 +14,8 @@ from PIL import Image, ImageDraw, ImageFont
 from pokestore import pokemon_store
 
 # Connect to MongoDB
-client = pymongo.MongoClient('mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority')
-db = client['pokemon_bot']
+client = pymongo.MongoClient('mongodb+srv://AniReal123:AniReal123@anireal123.wqnsp.mongodb.net/?retryWrites=true&w=majority&appName=AniReal123')
+db = client['AniReal123']
 collection = db['pokedex']
 leaderboard_collection = db['leaderboard']
 
